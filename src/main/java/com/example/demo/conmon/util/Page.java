@@ -7,7 +7,7 @@ public class Page {
     public Integer start;
     //每一页数量
     public Integer offset;
-    //总记录数
+    //总记录 数
     public Integer rowCount;
     //当前页码
     public Integer page;

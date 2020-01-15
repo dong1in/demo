@@ -9,19 +9,17 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.example.demo.setting.loginAndOut.entity.StudentVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.demo.conmon.util.Page;
 import com.example.demo.setting.logMng.entity.LogVO;
 import com.example.demo.setting.logMng.service.ILogMngService;
 import com.example.demo.setting.loginAndOut.service.ILoginAndOutService;
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 
-import cn.edu.hunnu.gxy.sys.settings.loginAndOut.entity.StudentVO;
 import net.sf.json.JSONArray;
 
 @RequestMapping("/log/*")
